@@ -1,0 +1,33 @@
+body{
+    padding: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(46, 43, 43);
+}
+
+#text{
+    width: 100%
+}
+
+button{
+    margin-top: 1vh; 
+    float: right;
+    background-color: blue;
+    color: white;
+}
+
+#result{
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: white;
+    text-align: center;
+}
+
+#sentiment{
+    font-size: 2em;
+    font-weight: bold;
+    
+}
